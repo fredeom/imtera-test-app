@@ -24,6 +24,9 @@
 * php artisan migrate
 * php artisan storage:link
 
+## Запуск
+* composer run dev
+
 ## После запуска
 * откройте в браузере localhost:8000
 * зарегестрируйте пользователя и залогиньтесь
