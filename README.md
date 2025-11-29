@@ -18,8 +18,11 @@
 
 ## Перед запуском
 * composer install
+* npm install
 * cp .env.example в .env
+* добавьте в .env APP_KEY, например вот этой строкой: APP_KEY=base64:ox1PiVLRbmPTHfUUgH0iEcg+PZet53iHlqYiku4nPdk=
 * php artisan migrate
+* php artisan storage:link
 
 ## После запуска
 * откройте в браузере localhost:8000
